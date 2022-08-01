@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+
+/* Global Section */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-lg-3{
+    width: 25%;
+    float: left;
+}
+.col-lg-4{
+    width: 33.33%;
+    float: left;
+}
+.col-lg-6{
+    width: 50%;
+    float: left;
+}
+.col-lg-9{
+    width: 75%;
+    float: left;
+}
+.col-lg-12{
+    width: 100%;
+    float: left;
+}
+
+/* hEADER CODE STARTS HERE */
+.header{
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+    border: 1px solid #777;
+    box-shadow: 3px 0px 3px;
+
+}
+.logo{
+    width: 130px;
+    display: block;
+
+}
+.logo img{
+    width: 100%;
+}
+.header .navbar{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.header .navbar li{
+    list-style: none;
+    display: inline-block;
+}
+.header .navbar li a{
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+    color:#777;
+    font-weight: 600px;
+    margin: 15px 0 0 25px;
+    transition: all 1s ;
+}
+.header .navbar li a:hover, .header .navbar li a:focus{
+    color:#1b70ff ;
+    
+}
+
+/* Online-section's CSS Start here */
+.online-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+}
+.inner-online{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.inner-online h1{
+    font-size: 55px;
+    line-height: 56px;
+    font-weight: 700px;
+    margin: 0px 0px 15px;
+
+}
+.inner-online h1 span{
+    color: #1b70ff;
+}
+.inner-online p{
+    font-size: 16px;
+    line-height: 26pxpx;
+    font-weight: 400px;
+    color: #777;
+    margin: 0px 0px 15px;
+    
+}
+.inner-online .banner-img{
+    width: 50%;
+
+}
+.successful-section{
+    width: 100px;
+    float: left;
+    padding: 20px 0px 60px;
+    
+}
+.inner-left{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.inner-left h2{
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 700px;
+    color: #f15767;
+    margin: 20px 0px 0px 0px;
+
+}
+.inner-left p{
+    font-size: 16px;
+    line-height: 26pxpx;
+    font-weight: 400px;
+    color: #777;
+    margin: 20px 0px 0px 0px;
+  
+}
+.project-h2{
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 700px;
+    color: #3f3d56;
+    margin: 0px 0px 0px 20px;
+
+}
+
+.footer{
+    width: 100%;
+    float: left;
+    padding: 20px 0 0;
+    text-align: center;
+    background-color: #1b70ff;
+}
+.footer p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400px;
+    color: #f0f0f0;
+}
+.footer p a{
+    color: #fff;
+    font-weight: 700px;
+    letter-spacing: 3px;
+}
+.feature-section{
+    width: 100%;
+    float: left;
+    padding: 40px 0px 80px;
+}
+.inner-feature{
+    width: 80%;
+    float: left;
+    padding: 40px 30px;
+    margin: 0px 20px;
+}
+.inner-feature img{
+    width: 100%;
+    height: 170px;
+}
+.inner-feature h4{
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 28px;
+    color: #3f3d56;
+    margin: 15px 0px;
+
+}
+.inner-feature p{
+    font-size: 14px;
+    line-height: 26pxpx;
+    font-weight: 400px;
+    color: #777;
+    margin: 20px 0px 0px 0px;
+  
+}
+.cl1{
+    background: #FDEBED;
+}
+.cl2{
+    background: #ebf ;
+}
+.cl3{
+    background:#fff7e8;
+}
+
+    
